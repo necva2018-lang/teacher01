@@ -15,6 +15,17 @@
       .scroll-smooth {
         scroll-behavior: smooth;
       }
+      /* Simple loading spinner */
+      .loading-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f3f4f6;
+        color: #ea580c;
+        font-size: 1.5rem;
+        flex-direction: column;
+      }
     </style>
     <script type="importmap">
 {
@@ -31,7 +42,12 @@
 </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loading-container">
+        <p>載入中...</p>
+        <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">正在啟動應用程式</p>
+      </div>
+    </div>
     <!-- Use text/babel and data-type="module" to allow imports and TSX -->
     <script type="text/babel" data-type="module" data-presets="react,typescript" src="./index.tsx"></script>
   </body>
