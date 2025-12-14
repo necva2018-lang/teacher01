@@ -50,7 +50,7 @@ export const TargetAudience: React.FC = () => {
               <p className="text-gray-600 mb-4 flex-1">{role.description}</p>
               <div className="flex flex-wrap gap-2 mt-auto">
                 {role.tags.map(tag => (
-                  <span key={tag} className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                  <span key={tag} className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
                     {tag}
                   </span>
                 ))}
@@ -60,11 +60,11 @@ export const TargetAudience: React.FC = () => {
         ))}
       </div>
 
-      <div className="mt-16 bg-blue-50 rounded-2xl p-8 border border-blue-100">
+      <div className="mt-16 bg-orange-50 rounded-2xl p-8 border border-orange-200">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
                 <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                    <CheckCircle2 className="h-6 w-6 text-green-500 mr-2" /> 必要條件
+                    <CheckCircle2 className="h-6 w-6 text-green-600 mr-2" /> 必要條件
                 </h4>
                 <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
@@ -83,7 +83,7 @@ export const TargetAudience: React.FC = () => {
             </div>
             <div>
                 <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                    <Award className="h-6 w-6 text-orange-500 mr-2" /> 加分條件
+                    <Award className="h-6 w-6 text-orange-600 mr-2" /> 加分條件
                 </h4>
                 <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">

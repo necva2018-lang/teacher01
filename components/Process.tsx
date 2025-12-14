@@ -43,30 +43,30 @@ export const Process: React.FC = () => {
   ];
 
   return (
-    <Section className="bg-blue-900 text-white" dark>
+    <Section className="bg-orange-950 text-white" dark>
       <div className="text-center mb-16">
         <h2 className="text-3xl font-extrabold sm:text-4xl">
           加入我們的五個步驟
         </h2>
-        <p className="mt-4 max-w-2xl text-xl text-blue-200 mx-auto">
+        <p className="mt-4 max-w-2xl text-xl text-orange-200 mx-auto">
           簡單透明的流程，開啟您的教學職涯。
         </p>
       </div>
 
       <div className="relative">
         {/* Connection Line (Desktop) */}
-        <div className="hidden lg:block absolute top-12 left-0 w-full h-0.5 bg-blue-700 -z-10"></div>
+        <div className="hidden lg:block absolute top-12 left-0 w-full h-0.5 bg-orange-800 -z-10"></div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {steps.map((step) => (
             <div key={step.id} className="relative flex flex-col items-center text-center group">
-              <div className="w-24 h-24 bg-blue-800 rounded-full flex items-center justify-center border-4 border-blue-600 group-hover:border-blue-400 transition-colors duration-300 z-10 mb-6 shadow-xl">
+              <div className="w-24 h-24 bg-orange-900 rounded-full flex items-center justify-center border-4 border-orange-600 group-hover:border-orange-400 transition-colors duration-300 z-10 mb-6 shadow-xl">
                 <div className="text-white">
                     {step.icon}
                 </div>
               </div>
               <h3 className="text-xl font-bold text-white mb-2">{step.stepNumber}. {step.title}</h3>
-              <p className="text-blue-200 text-sm leading-relaxed px-2">
+              <p className="text-orange-200 text-sm leading-relaxed px-2">
                 {step.description}
               </p>
             </div>
