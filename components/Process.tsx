@@ -1,6 +1,6 @@
 import React from 'react';
-import { Section } from './Section';
-import { StepItem } from '../types';
+import { Section } from './Section.tsx';
+import { StepItem } from '../types.ts';
 import { FileText, Search, Users, Presentation, GraduationCap } from 'lucide-react';
 
 export const Process: React.FC = () => {

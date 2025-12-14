@@ -1,6 +1,6 @@
 import React from 'react';
-import { Section } from './Section';
-import { RoleItem } from '../types';
+import { Section } from './Section.tsx';
+import { RoleItem } from '../types.ts';
 import { CheckCircle2, Award } from 'lucide-react';
 
 export const TargetAudience: React.FC = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Section } from './Section';
-import { Button } from './Button';
+import { Section } from './Section.tsx';
+import { Button } from './Button.tsx';
 
 export const CTA: React.FC = () => {
   return (

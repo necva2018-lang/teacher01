@@ -1,6 +1,6 @@
 import React from 'react';
-import { Section } from './Section';
-import { FeatureItem } from '../types';
+import { Section } from './Section.tsx';
+import { FeatureItem } from '../types.ts';
 import { Building2, MonitorPlay, Award, HeartHandshake } from 'lucide-react';
 
 export const Features: React.FC = () => {
